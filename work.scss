@@ -1,0 +1,166 @@
+#work {
+  margin-top: -125px;
+
+  .work {
+    height: 900px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--left {
+      position: relative;
+      bottom: 250px;
+      width: 45%;
+
+      .img1 {
+        width: 561px;
+        position: absolute;
+      }
+
+      .img2 {
+        width: 350px;
+        position: absolute;
+        top: 107px;
+        left: 107px;
+      }
+
+      .img3 {
+      }
+
+      .yellow {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        margin-top: 40px;
+        margin-left: 70px;
+        border-radius: 50%;
+        background: #FFDC4D;
+      }
+
+      .two {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 464px;
+        top: 71px;
+        background: #37A3FF;
+        border-radius: 50%;
+      }
+
+      .three {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 255px;
+        top: 85px;
+        background: #41e841;
+        border-radius: 50%;
+      }
+
+      .four {
+        position: absolute;
+        background: #FF5758;
+      }
+
+      .five {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        margin-left: 80px;
+        margin-top: 270px;
+        background: #187b8f;
+        border-radius: 50%;
+      }
+
+      .seven {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        margin-left: 410px;
+        margin-top: 220px;
+        background: #187b8f;
+        border-radius: 50%;
+      }
+
+      .eith {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        margin-left: 270px;
+        margin-top: 420px;
+        background: rgba(161, 122, 24, 0.82);
+        border-radius: 50%;
+      }
+
+      .nine {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        margin-left: 130px;
+        margin-top: 480px;
+        background: #067ef5;
+        border-radius: 50%;
+      }
+
+      .tre {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        margin-left: 470px;
+        margin-top: 400px;
+        background: #801c95;
+        border-radius: 50%;
+      }
+
+      .ons {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        margin-left: -35px;
+        margin-top: 280px;
+        background: rgba(185, 30, 59, 0.93);
+        border-radius: 50%;
+      }
+    }
+
+    &--right {
+      width: 45%;
+
+      h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 72px;
+        letter-spacing: -0.02em;
+        color: #212529;
+      }
+
+      p {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        color: #212529;
+      }
+
+      button {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        width: 186px;
+        height: 63px;
+        background: #4F9CF9;
+        border-radius: 6px;
+        border: none;
+      }
+
+      button:hover {
+        transition: .4s;
+        transform: scale(1.1);
+      }
+    }
+
+  }
+}

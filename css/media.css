@@ -1,0 +1,12 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 85%;
+  }
+}
+@media (max-width: 1200px) {
+  .header h1 {
+    margin-left: -35px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

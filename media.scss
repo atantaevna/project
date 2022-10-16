@@ -1,0 +1,88 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  #header .header h1 {
+    margin-left: -67px;
+  }
+  #footer .footer .fot .footer--general .footer--general1 .footer--line {
+    /* position: absolute; */
+  }
+  #work .work {
+    height: 900px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  #work .work {
+    margin-top: 500px;
+    margin-left: -78px;
+  }
+  #work .work--right h1 {
+    margin-top: -550px;
+    margin-left: 70px;
+  }
+  #work .work--right p {
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  #work .work--right button {
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  #work .work--left {
+    margin-left: -90px;
+  }
+  #use {
+    margin-top: -149px;
+  }
+  #use .use {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  #footer .footer .fot .footer--general .footer--general1 .footer--line {
+    /* position: absolute; */
+    width: 1150px;
+    margin-top: 50px;
+    /* border: 1px solid #2E4E73; */
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 450px) {
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

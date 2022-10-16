@@ -1,0 +1,56 @@
+#customise {
+  margin-top: 110px;
+
+  .customise {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .cust--right {
+      width: 570px;
+      height: 490px;
+      background: #C4DEFD;
+    }
+
+    .cust--left {
+      .cust__img {
+        width: 390px;
+        margin-top: -150px;
+      }
+
+      h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 54px;
+        letter-spacing: -0.02em;
+        color: rgba(16, 16, 16, 0.94);
+      }
+    }
+
+    p {
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+      color: #212529;
+    }
+
+    button {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      letter-spacing: -0.02em;
+      color: #FFFFFF;
+      border: none;
+      width: 171px;
+      height: 63px;
+      background: #4F9CF9;
+      border-radius: 8px;
+    }
+
+    button:hover {
+      transition: .4s;
+      transform: scale(1.1);
+    }
+  }
+}

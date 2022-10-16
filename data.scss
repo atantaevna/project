@@ -1,0 +1,46 @@
+#data {
+  margin-top: 150px;
+
+  .data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .data-right {
+      h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 50px;
+        letter-spacing: -0.02em;
+        color: #212529;
+      }
+
+      p {
+        margin-top: 30px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: -0.02em;
+        color: #212529;
+      }
+
+      button {
+        margin-top: 25px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFFFF;
+        border: none;
+        width: 197px;
+        height: 63px;
+        background: #4F9CF9;
+        border-radius: 8px;
+      }
+
+      button:hover {
+        transition: .4s;
+        transform: scale(1.1);
+      }
+    }
+  }
+}

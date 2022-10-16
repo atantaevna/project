@@ -1,0 +1,110 @@
+#choose {
+  .choose--block {
+    .choose--text {
+      .your__img {
+        width: 400px;
+        margin-top: -25px;
+        margin-left: 500px;
+      }
+
+      h1 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 72px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #212529;
+      }
+
+      p {
+        margin-top: 30px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #212529;
+      }
+    }
+
+    .choose--swiper {
+      margin-top: 60px;
+      width: 355px;
+      height: 560px;
+      background: #FFFFFF;
+      border: 1px solid #FFE492;
+      border-radius: 10px;
+    }
+
+    .choose--swiper__block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .swipers {
+      margin-left: 40px;
+
+      h2 {
+        margin-top: 30px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        color: #212529;
+      }
+
+      h1 {
+        margin-top: 30px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: -0.02em;
+        color: #212529;
+      }
+
+      span {
+        margin-top: 30px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        color: #212529;
+      }
+    }
+
+    .swipers2 {
+      margin-top: 30px;
+      margin-left: 40px;
+    }
+
+    ion-icon {
+      width: 25px;
+      height: 25px;
+    }
+
+    p {
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: -0.02em;
+      color: #212529;
+      margin-left: 30px;
+      margin-top: -50px;
+      padding-top: 30px;
+    }
+
+    button {
+      margin-top: 50px;
+      width: 166px;
+      height: 51px;
+      background: #FFFFFF;
+      border: 1px solid #FFE492;
+      border-radius: 8px;
+    }
+
+    button:hover {
+      transition: .4s;
+      transform: scale(1.1);
+    }
+  }
+}

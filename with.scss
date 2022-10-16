@@ -1,0 +1,119 @@
+@import "reset";
+@import "mixins";
+@import "varabels";
+
+#with {
+  .with {
+    width: 125%;
+    height: 574px;
+    margin-top: 200px;
+    margin-left: -190px;
+    background: #043873;
+  }
+
+  h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 680px;
+    padding: 90px;
+    color: #FFFFFF;
+  }
+
+  p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: -70px;
+    margin-left: 790px;
+    color: #FFFFFF;
+  }
+
+  button {
+    width: 194px;
+    height: 63px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #4F9CF9;
+    border-radius: 8px;
+    margin-top: 30px;
+    border: none;
+    margin-left: 790px;
+  }
+
+  button:hover {
+    transition: .4s;
+    transform: scale(1.1);
+  }
+
+  .with--general {
+    margin-left: -50px;
+  }
+
+  .with--ellipse {
+    position: absolute;
+    margin-top: -530px;
+    margin-left: 90px;
+  }
+
+  .with--ellipse1 {
+    position: absolute;
+    margin-top: -330px;
+    margin-left: -30px;
+  }
+
+  .with--ellipse2 {
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 190px;
+  }
+
+  .with--email {
+    position: absolute;
+    margin-top: -560px;
+    margin-left: 202px;
+  }
+
+  .with--email1 {
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 55px;
+  }
+
+  .with--email2 {
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 340px;
+  }
+
+  .with--email3 {
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 170px;
+  }
+
+  .with--email4 {
+    position: absolute;
+    background: #043873;
+    margin-top: -290px;
+    margin-left: 205px;
+  }
+
+  .with--email5 {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: -60px;
+  }
+
+  .with--email6 {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 440px;
+  }
+
+  .with--email7 {
+    position: absolute;
+    margin-top: -128px;
+    margin-left: 200px;
+  }
+}
